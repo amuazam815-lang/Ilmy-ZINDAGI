@@ -252,3 +252,13 @@
 
 </body>
 </html>
+// Agar aap alag pages par bhejna chahte hain:
+if (subjectName.includes('ریاضی') || subjectName.includes('Math')) {
+    window.location.href = 'math.html'; // Yahan Math ka alag page khul jaye ga
+} else if (subjectName.includes('اردو')) {
+    window.location.href = 'urdu.html';
+} else if (subjectName.includes('سائن') || subjectName.includes('Science')) {
+    window.location.href = 'science.html';
+} else if (subjectName.includes('انگلش') || subjectName.includes('English')) {
+    window.location.href = 'english.html';
+}
